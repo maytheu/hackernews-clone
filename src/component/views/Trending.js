@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import jg from "../../assets/img/jg.jpg";
 import logo from "../../assets/img/clubcrest2.jpg";
@@ -28,21 +29,23 @@ function Trending() {
           <div className="section-news">
             <div className="footer-top"></div>
             <div className="news-highlights">
-              <div className="highlight">
-                <div className="news-image">
-                  <img src={jg} alt="headline" />
-                </div>
-                <div className="news-headlines">
-                  <div className="headlines-title">Team News</div>
-                  <div className="headlines">
-                    Team news: Lacazette, Odegaard, Aubamayang
+              <Link to="/news/team-news-lacazette-odegaard-aubamayang">
+                <div className="highlight">
+                  <div className="news-image">
+                    <img src={jg} alt="headline" />
                   </div>
-                  <div className="headlines-detail">
-                    Find out the latst from our medical team ahead of Friday's
-                    Premier League match against Everton
+                  <div className="news-headlines">
+                    <div className="headlines-title">Team News</div>
+                    <div className="headlines">
+                      Team news: Lacazette, Odegaard, Aubamayang
+                    </div>
+                    <div className="headlines-detail">
+                      Find out the latst from our medical team ahead of Friday's
+                      Premier League match against Everton
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className="excerpt">
@@ -60,10 +63,10 @@ function Trending() {
             ))}
           </div>
           <div className="see-more">
-              <div className="line"></div>
-              <div className="see-more-text"> Trending - see more</div>
-              <div className="line"></div>
-            </div>
+            <div className="line"></div>
+            <div className="see-more-text"> Trending - see more</div>
+            <div className="line"></div>
+          </div>
         </div>
       </div>
     </section>

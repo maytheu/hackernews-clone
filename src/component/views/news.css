@@ -36,6 +36,10 @@ section {
   margin-bottom: 20px;
 }
 
+.news-highlights a{
+  text-decoration: none;
+}
+
 .highlight {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -71,6 +75,7 @@ section {
 .headlines-detail{
   font-family: serif;
   font-size: .85rem;
+  color: black;
 }
 
 .frame img {
