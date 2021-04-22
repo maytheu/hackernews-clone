@@ -1,0 +1,412 @@
+section {
+  margin-left: 10px;
+}
+.news-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news {
+  margin-right: 30px;
+  width: 74%; 
+}
+
+.section-title {
+  background-color: #ff001a;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.section-news {
+  margin-top: 20px;
+}
+
+.news-highlight {
+  background-color: white;
+  box-shadow: 0px 10px 5px -10px #111;
+  margin-bottom: 20px;
+}
+
+.news-highlights {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  cursor: pointer;
+}
+
+.highlight:hover .headlines{
+  color: #ff001a;
+}
+.news-image img {
+  width: 100%;
+  height: 400px;
+}
+
+.news-headlines {
+  padding: 25px;
+}
+
+.headlines-title {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.headlines {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.headlines-detail{
+  font-family: serif;
+  font-size: .85rem;
+}
+
+.frame img {
+  width: 100%;
+  height: 500px;
+}
+
+.frame img:hover {
+  cursor: pointer;
+}
+
+.frame-details {
+  padding: 20px;
+}
+
+.frame-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.frame-highlight {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.75rem;
+}
+
+.excerpt {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.excerpt-frame {
+  background-color: white;
+  box-shadow: 0px 10px 5px -10px #111;
+  height: 380px;
+}
+
+.excerpt-news{
+  background-color: white;
+  height: 380px;
+  cursor: pointer;
+
+}
+
+.excerpt-news:hover .excerpt-title{
+  color: #ff001a;
+}
+
+.excerpt-image img {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.excerpt-news-image img{
+  width: 100%;
+  height: 220px;
+}
+
+.excerpt-image img:hover {
+  cursor: pointer;
+}
+
+.excerpt-details {
+  padding: 20px;
+}
+
+.excerpt-hint {
+  text-transform: uppercase;
+  font-size: 0.55rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+
+.excerpt-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.excerpt-focus img {
+  width: 100%;
+  height: 280px;
+}
+
+.excerpt-community {
+  padding: 20px;
+  display: flex;
+}
+
+.excerpt-community svg {
+  color: #ff001a;
+  font-size: 1.3rem;
+}
+
+.excerpt-url a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.excerpt-url a:hover {
+  color: red;
+}
+
+.see-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.line {
+  width: 36%;
+  /* padding: 20px 0; */
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.see-more-text {
+  padding: 20px;
+  background: #ff001a;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0 16px;
+}
+
+.see-more:hover .line {
+  background: #8a0c18;
+}
+
+.see-more:hover .see-more-text {
+  background: #8a0c18;
+}
+
+.fixtures {
+  width: 23%;
+}
+
+.schedule {
+  border: 1px solid black;
+  background-color: #151b2c;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.date-venue {
+  text-transform: capitalize;
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-family: revert;
+}
+
+.station {
+  display: flex;
+  /* align-items: center;
+    justify-content: center; */
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.sport img {
+  height: 20px;
+  padding-right: 5px;
+}
+
+.divider-fixtures {
+  width: 100%;
+  height: 0.5px;
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.competition {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.team img {
+  width: 60px;
+}
+
+.vs {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fixtures-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.schedule:hover .vs {
+  color: #ff001a;
+}
+
+.schedule:hover .home {
+  color: #ff001a;
+}
+
+.fixtures-info:hover {
+  color: #ff001a;
+}
+
+.calender {
+  padding: 15px 15px 15px 35px;
+  background-color: #ff001a;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.previous {
+  cursor: pointer;
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.previous:hover .team-name {
+  color: #ff001a;
+}
+
+.recent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.league {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  padding-top: 3px;
+  font-size: 0.8rem;
+}
+
+.loc {
+  font-weight: 500;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.team-name {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.result-a {
+  font-weight: 500;
+  font-size: 4rem;
+  font-family: serif;
+}
+
+.result-h {
+  font-weight: 500;
+  font-size: 4rem;
+  font-family: serif;
+  color: #ff001a;
+}
+
+.divider-recent {
+  width: 100%;
+  height: 0.5px;
+  margin: 15px 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.recents-info {
+  padding: 10px 10px 10px 0px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+
+.recents-info svg {
+  padding-left: 10px;
+}
+
+.recents-info:hover {
+  background: #e2dadb;
+}
+
+.social-title {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.handles {
+  margin-top: 10px;
+}
+
+.handle svg {
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: white;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.handle svg:hover {
+  border: 1px solid #ff001a;
+  color: #ff001a;
+}

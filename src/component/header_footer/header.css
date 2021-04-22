@@ -1,0 +1,87 @@
+header {
+  background-color: #ff001a;
+  text-transform: uppercase;
+  padding: 0 5px;
+  color: white;
+  height: 115px;
+}
+
+.uppermenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.uppermenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icons .icon {
+  cursor: pointer;
+  font-size: 0.7rem;
+  padding: 7px;
+}
+
+.icons .icon:hover {
+  background-color: #8a0c18;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  background: url("../../assets/img/arsenallogo.svg");
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: .5px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.lowermenu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.menus {
+  margin-left: 50px;
+}
+.menus a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  margin-right: 30px;
+  padding: 5px;
+  padding-bottom: 18px;
+}
+
+.menus a:hover {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 5px solid white;
+}
+
+.sponsor img {
+  width: 50px;
+}
