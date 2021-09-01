@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "sql": "nodemon src/script.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "2.30.2",
     "apollo-server": "3.3.0",
     "graphql": "15.5.2",
     "nodemon": "2.0.12"
+  },
+  "devDependencies": {
+    "prisma": "2.30.2"
   }
 }
