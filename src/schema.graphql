@@ -14,7 +14,7 @@ type Link {
 type Mutation {
   post(url: String!, description: String!): Link!
   updatePost(id: ID!, url: String!, description: String!): Link
-  deletePost(id: ID!): [Link]
+  deletePost(id: ID!): Link
 }
 
 type Test {
