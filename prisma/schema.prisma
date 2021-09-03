@@ -2,7 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider = "sqlite"
+  provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
@@ -10,9 +10,3 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Link {
-  id          Int      @id @default(autoincrement())
-  createdAt   DateTime @default(now())
-  description String
-  url         String
-}
